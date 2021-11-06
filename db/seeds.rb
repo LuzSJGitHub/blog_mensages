@@ -88,3 +88,23 @@ x.title = "Nuevo título"
 x.save
 puts Post.all.first.title
 puts "Tarea 6. Hecho"
+
+# Tarea 7
+f = Post.all.order("created_at asc")[2]
+f.destroy
+
+puts "¿Post existe? #{Post.where(id: f.id).count}"
+puts "Tarea 7. Hecho"
+
+# Tarea 8
+puts Blog.all
+puts "Tarea 8. Hecho"
+
+# Tarea 9
+puts Blog.where("id < 5")
+# puts Blog.where("id <= 5")
+# puts Blog.where("id > 5")
+# puts Blog.where("id >= 5")
+# puts Blog.where("id = 5")
+# puts Blog.where("id != 5")
+puts "Tarea 9. Hecho"
