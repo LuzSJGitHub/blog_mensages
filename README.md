@@ -1,5 +1,7 @@
 # Rails on Replit
 
+Revisa los comandos en el archivo db/seeds.rb
+
 This is a template to get you started with Rails on Replit. It's ready to go so you can just hit run and start coding!
 
 This template was generated using `rails new` (after you install the `rails` gem from the packager sidebar) so you can always do that if you prefer to set it up from scratch. The only had two make config changes we had to make to run it on Replit:
